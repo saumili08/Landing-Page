@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 120;
+}
+
+
+/* Hero section */
+.hero-section {
+    background-image: url("hero-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+.hero-txt {
+    color: #caf0f8;
+    margin-top: 0 auto;
+    max-width: 1000px;
+    line-height: 60px;
+    padding-top: 260px;
+    padding-left: 460px;
+}
+
+.normal-font {
+    font-size: 38px;
+}
+
+.big-font {
+    font-size: 50px;
+}
+
+
+/* Question */
+.txt-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 180px;
+    background-color: #0081a7;
+    color: #f9f7f3;
+    word-spacing: 5px;
+}
+
+
+/* Qualifications */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 600px;
+    background-color: #eaf2d7;
+}
+
+.box {
+    height: 550px;
+    width: 30%;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+.box:hover {
+    box-shadow: 3px 5px 5px #6d597a;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin: 1rem;
+    border-radius: 30px;
+}
+
+
+.box-txt {
+    margin: 1rem;
+}
+
+
+.box-txt h3 {
+    margin-bottom: 8px;
+}
+
+
+/* Personal Details */
+.details {
+    display: flex;
+}
+
+.contact {
+    height: 300px;
+    width: 50%;
+    background-color: #4d194d;
+    color: #eaf2d7;
+    padding: 40px;
+}
+
+.contact p,
+.about p {
+    margin-bottom: 20px;
+}
+
+
+.about {
+    height: 300px;
+    width: 50%;
+    background-color: crimson;
+    color: #eaf2d7;
+    padding: 40px;
+}
+
+.contact h1
+.about h1{
+    height: 500px;
+    margin-top: 70px;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    height: 60px;
+    padding: 20px;
+    background-color: #0081a7;
+    color: #f9f7f3;
+    word-spacing: 5px;
+}
